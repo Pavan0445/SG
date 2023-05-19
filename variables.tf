@@ -17,3 +17,6 @@ variable "sgcidrblock"{
 variable "sgtags"{
     type = map(string)
 }
+variable "sgid"{
+    type = string
+}
